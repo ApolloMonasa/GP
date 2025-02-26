@@ -4,7 +4,7 @@
 	> Mail: xyl6716@outlook.com
 	> Created Time: Tue 25 Feb 2025 03:15:44 AM CST
  ************************************************************************/
-#include "snake.h"
+#include "2.0snake.h"
 
 void SetPos(short x, short y) {
 	//获得标准输出设备的句柄

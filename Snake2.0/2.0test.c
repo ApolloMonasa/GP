@@ -4,7 +4,7 @@
 	> Mail: xyl6716@outlook.com
 	> Created Time: Tue 25 Feb 2025 03:16:53 AM CST
  ************************************************************************/
-#include "snake.h"
+#include "2.0snake.h"
 
 //完成游戏的测试逻辑
 void test() {
