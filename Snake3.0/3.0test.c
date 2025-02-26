@@ -22,7 +22,7 @@ void test() {
 	GameEnd(&snake);
 	//询问是否再来一局
 	SetPos(LENTH, LENTH / 2 + 1);
-	printf("再来一局？[Y/N]:");
+	wprintf(L"再来一局？[Y/N]:");
 	while((ch = getchar()) == ' ');
 	while(getchar() != '\n');//清理回车
 	} while (ch == 'Y' || ch == 'y');
