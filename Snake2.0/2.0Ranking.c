@@ -4,7 +4,7 @@
 	> Mail: xyl6716@outlook.com
 	> Created Time: Tue 25 Feb 2025 03:15:13 AM CST
  ************************************************************************/
-#include "snake.h"
+#include "2.0snake.h"
 
 //// 主函数
 //int main() {
