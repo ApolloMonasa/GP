@@ -391,9 +391,9 @@ void GameRun(pSnake ps) {
 		GetConsoleScreenBufferInfo(out, &csbi);
 		SetConsoleTextAttribute(out, FOREGROUND_BLUE | FOREGROUND_INTENSITY | (csbi.wAttributes & 0xF0));
 		SetPos(LENTH * 2 + 10, 2);
-		printf("总分数：%d\n", ps->_score);
+		wprintf(L"总分数：%d\n", ps->_score);
 		SetPos(LENTH * 2 + 10, 3);
-		printf("当前食物分数：%2d\n", ps->_food_weight);
+		wprintf(L"当前食物分数：%2d\n", ps->_food_weight);
 		SetConsoleTextAttribute(out, csbi.wAttributes);
 
 		if (KEY_PRESS(VK_UP) && ps->_dir != DOWN) {
